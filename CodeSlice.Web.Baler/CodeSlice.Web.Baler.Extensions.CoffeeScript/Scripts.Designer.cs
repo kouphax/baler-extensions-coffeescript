@@ -68,7 +68,7 @@ namespace CodeSlice.Web.Baler.Extensions {
         /// * Copyright 2010, Jeremy Ashkenas
         /// * Released under the MIT License
         /// */
-        ///this.CoffeeScript=function(){function require(a){return require[a]}require[&quot;./helpers&quot;]=new function(){var a=this;(function(){var b,c;a.starts=function(a,b,c){return b===a.substr(c,b.length)},a.ends=function(a,b,c){var d;d=b.length;return b===a.substr(a.length-d-(c||0),d)},a.compact=function(a){var b,c,d,e;e=[];for(c=0,d=a.length;c&lt;d;c++)b=a[c],b&amp;&amp;e.push(b);return e},a.c [rest of string was truncated]&quot;;.
+        ///this.CoffeeScript=function(){function require(a){return require[a]}require[&quot;./helpers&quot;]=new function(){var a=this;(function(){var b,c;a.starts=function(a,b,c){return b===a.substr(c,b.length)},a.ends=function(a,b,c){var d;d=b.length;return b===a.substr(a.length-d-(c||0),d)},a.compact=function(a){var b,c,d,e;e=[];for(c=0,d=a.length;c&lt;d;c++)b=a[c],b&amp;&amp;e.push(b);return [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string CoffeeScript {
             get {
